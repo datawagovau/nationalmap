@@ -1,0 +1,37 @@
+{
+    "catalog": [
+    {
+        "items": [
+        {
+            "blacklist": {
+                "Rainforests (EVC_2005)": true
+            },
+                "groupBy": "organization",
+                "minimumMaxScaleDenominator": 10000000000,
+                "filterByWmsGetCapabilities": false,
+                "filterQuery": [
+                    "fq=+(res_format%3awms%20OR%20res_format%3aWMS%20OR%20res_format%3acsv-geo-au%20OR%20res_format%3aaus-geo-csv%20OR%20res_format%3AGeoJSON)"
+                    ],
+                "url": "http://internal-data.dpaw.wa.gov.au",
+                "type": "ckan",
+                "name": "Internal Data Catalogue",
+                "includeCsv": true,
+                "includeGeoJson": true,
+                "includeWms": true,
+                "includeKml": true,
+                "allowEntireWmsServers": true
+        },
+        {
+            "name": "KMI Spatial Data Warehouse",
+            "type": "wms-getCapabilities",
+            "includeWms": true,
+            "url": "http://kmi.dpaw.wa.gov.au/geoserver/ows"
+        }
+        ],
+        "type": "group",
+        "name": "Parks & Wildlife (Internal Data)",
+        "isPromoted": true,
+        "isOpen": true
+    }
+    ]
+}

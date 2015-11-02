@@ -2,9 +2,9 @@
   "services": [],
   "homeCamera": {
     "north": -8,
-    "east": 158,
+    "east": 110,
     "south": -45,
-    "west": 109
+    "west": 130
   },
   "corsDomains": [
     "corsproxy.com",

@@ -128,7 +128,7 @@
         }
       ],
       "type": "group",
-      "isOpen": true,
+      "isOpen": false,
       "name": "National Data Sets"
     }
   ]
