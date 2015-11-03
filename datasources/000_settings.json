@@ -13,6 +13,8 @@
     "mapsengine.google.com",
     "s3-ap-southeast-2.amazonaws.com",
     "data.melbourne.vic.gov.au",
+    "geoserver.imos.org.au",
+    "geoserver-123.aodn.org.au",
     "data.act.gov.au"
   ]
 }

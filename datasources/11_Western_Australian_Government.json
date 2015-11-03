@@ -16,6 +16,12 @@
                 "includeWms": true,
                 "includeKml": true,
                 "allowEntireWmsServers": true
+            },
+            {
+                "name": "Integrated Marine Observing System (IMOS)",
+                "type": "wms-getCapabilities",
+                "url": "http://geoserver-123.aodn.org.au/geoserver/ows?service=wms&version=1.3.0",
+                "includeWms": true
         },
         {
             "itemProperties": {
