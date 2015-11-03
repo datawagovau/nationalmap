@@ -10,7 +10,6 @@
                 "url": "http://catalogue.beta.data.wa.gov.au",
                 "type": "ckan",
                 "name": "Data.wa.gov.au",
-		"isPromoted": true,
                 "includeCsv": true,
                 "includeGeoJson": true,
                 "includeWms": true,
