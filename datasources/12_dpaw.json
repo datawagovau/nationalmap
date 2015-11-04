@@ -11,6 +11,7 @@
                 "name": "Internal Data Catalogue",
                 "type": "ckan",
                 "url": "http://internal-data.dpaw.wa.gov.au",
+                "isPromoted": true,
                 "groupBy": "organization",
                 "minimumMaxScaleDenominator": 10000000000,
                 "filterByWmsGetCapabilities": false,
